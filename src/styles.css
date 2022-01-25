@@ -1,0 +1,119 @@
+body {
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  font-family: "Inconsolata", monospace;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+}
+
+h1 {
+  color: #1dcaf0;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #0278ae;
+  padding: 25px;
+}
+
+.joke {
+  border: 3px solid #0278ae;
+  font-weight: 400;
+  margin: 30px;
+  padding-top: 5px;
+  text-align: center;
+  width: 250px;
+}
+
+.dino {
+  padding-top: 15px;
+  width: 110px;
+}
+
+.current-city {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.today-temp {
+  font-size: 20px;
+}
+
+.current-temp {
+  font-size: 60px;
+}
+
+.daily-outlook {
+  font-size: 20px;
+}
+
+.empty {
+  width: 310px;
+}
+
+.big-cities {
+  border-bottom: 4px solid #0278ae;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  width: 900px;
+}
+
+.newyork {
+  border-right: 4px solid #0278ae;
+}
+
+.chicago {
+  border-right: 4px solid #0278ae;
+}
+
+.big-cities-temp {
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: center;
+  width: 900px;
+}
+
+.input-group {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 500px;
+}
+
+h3 {
+  border-bottom: 3px solid #0278ae;
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2em;
+  list-style-type: none;
+}
+
+li.precipitation {
+  padding: 4px 5px;
+  text-align: left;
+}
